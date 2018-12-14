@@ -1,0 +1,11 @@
+*{ 
+    text-align: center;
+}
+
+div{
+    background: yellow;
+}
+
+button{
+    margin-bottom: 10px;
+}

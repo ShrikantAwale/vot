@@ -1,0 +1,27 @@
+<div class="container" style="width:745px; height:350px;">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Results</h2>
+      <hr>
+      <div *ngFor="let count of count1" id="bjp" class="Block"
+      [ngStyle]="{ backgroundColor : winnerParty == 1 ? 'green' : 'red' }">
+      </div><br><br>
+      <hr>
+      <div *ngFor="let count of count2" id="ncp" class="Block"
+      [ngStyle]="{ backgroundColor : winnerParty == 2 ? 'green' : 'red' }">
+      </div><br><br>
+      <hr>
+      <div *ngFor="let count of count3" id="bsp" class="Block"
+      [ngStyle]="{ backgroundColor : winnerParty == 3 ? 'green' : 'red' }">
+      </div><br><br>
+      <hr>
+      <div *ngFor="let count of count4" id="aap" class="Block"
+        [ngStyle]="{ backgroundColor : winnerParty == 4 ? 'green' : 'red' }">
+      </div>
+      <br><br><hr>
+      
+    </div>
+    
+  </div>
+</div>
+
